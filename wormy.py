@@ -23,7 +23,7 @@ RED       = (255, 128,   0)
 GREEN     = (128,   0, 128)
 DARKGREEN = (255, 192, 203)
 DARKGRAY  = ( 40,  40,  40)
-BGCOLOR = BLACK
+BGCOLOR = GREEN
 
 UP = 'up'
 DOWN = 'down'

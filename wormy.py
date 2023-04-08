@@ -7,7 +7,7 @@
 import random, pygame, sys
 from pygame.locals import *
 
-FPS = 7
+FPS = 15
 WINDOWWIDTH = 940
 WINDOWHEIGHT = 780
 CELLSIZE = 20
@@ -92,7 +92,7 @@ def runGame():
             else: # si no fue apple, fue apple 2
                 apple2 = getRandomLocation() # set a new apple2 somewhere
         else:
-            wormCoords[-1] # remove worm's tail segment
+            del wormCoords[-1] # remove worm's tail segment
             
         # move the worm by adding a segment in the direction it is moving
         if direction == UP:
